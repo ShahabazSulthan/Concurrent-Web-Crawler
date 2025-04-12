@@ -48,6 +48,7 @@ func main() {
 	}
 
 	log.Printf("✅ Done in %v", time.Since(start))
+	fmt.Println("Thank You")
 }
 
 func readURLs(filename string) ([]string, error) {
