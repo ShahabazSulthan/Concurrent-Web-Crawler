@@ -37,6 +37,8 @@ func main() {
 
 	results := crawlURLs(urls)
 
+	fmt.Println("AUthor: Shahabaz Sultha")
+
 	for _, res := range results {
 		if res.Error != nil {
 			log.Printf("[ERROR] %s: %v", res.URL, res.Error)
